@@ -4,7 +4,7 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-  
+
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: rgba(0, 0, 0, .99);
@@ -18,14 +18,14 @@
   --font-mono: 'Ubuntu Mono', monospace;
   --font-serif: 'Cormorant Infant', serif;
   overflow-y: scroll;
-}
+  }
 
 body {
   margin: 0;
 }
 
 #root {
-   margin: 0;
+  margin: 0;
   text-align: center;
 }
 
@@ -34,14 +34,15 @@ body {
   flex-flow: column nowrap;
 }
 
-.headline > h1 {
+.headline>h1 {
   display: flex;
   justify-content: space-evenly;
   margin: 0 auto;
   width: 100%;
 }
 
-.synthetic, .rain {
+.synthetic,
+.rain {
   cursor: pointer;
   width: 50%;
   padding-top: 2rem;
@@ -52,7 +53,7 @@ body {
 .synthetic {
   display: flex;
   font-family: var(--font-mono);
-  font-weight: 300; 
+  font-weight: 300;
   font-size: 99%;
 }
 
@@ -68,22 +69,27 @@ body {
 }
 
 nav {
-  display: flex;
-  justify-content: space-evenly;
- padding-top: 3rem; 
- padding-bottom: 1rem; 
- overflow-x: auto;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  overflow-x: scroll;
 }
 
-nav > button {
-  cursor: pointer;
+.nav-scroll-wrapper {
+  min-width: 200vw;
+  margin: 0 auto;
+}
+
+.nav-scroll-wrapper p {
+  display: inline-block;
+   cursor: pointer;
   background: none;
   border: none;
-}
+ margin: 0 2rem;
+ }
 
 .poem-date {
   font-size: 1rem
-} 
+}
 
 .poem-title {
   font-size: 2rem
@@ -94,16 +100,22 @@ nav > button {
   flex-flow: column nowrap;
   align-items: center;
   text-align: left;
-   max-width: 75%;
-   margin: auto;
+  max-width: 75%;
+  margin: auto;
+  z-index: 3;
 }
 
-.poem-body > section {
+.poem-body>section {
   width: 80%;
   margin: 1rem auto;
   font-size: 1.2rem;
 }
 
-.poem-body > section > p {
+.poem-body>section>p {
   margin: .3rem auto;
+}
+
+.signature {
+  text-align: right;
+  margin-right: 30%;
 }

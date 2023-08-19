@@ -9,6 +9,7 @@ function Content({ currentTheme, activePoem }: { currentTheme: Accessor<CSSModul
       <p class="poem-date">{activePoem()?.date}</p>
       <h3 class="poem-title">{activePoem()?.title}</h3>
       <article class="poem-body">{stanzaFormat(activePoem()?.body).map(paragraph => <section>{paragraph.map(line => <p>{line}</p>)}</section>)}</article>
+      <p class="signature">-NB-</p>
     </div>
   )
 }

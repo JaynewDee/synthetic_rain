@@ -7,6 +7,12 @@ export interface PoemType {
 
 const poems: PoemType[] = [
     {
+        id: 3,
+        title: "No Wings",
+        date: new Date().toDateString(),
+        body: "Was I built brittle? \nLess for sense the wounded leprosy. :I bark about brilliance like a buried dog. \nMy two callous hands choke out silver dreams, the croaking. :I keep feeling my shoulders for no wings."
+    },
+    {
         id: 1,
         title: "Past the Wound",
         date: new Date().toDateString(),
@@ -17,12 +23,6 @@ const poems: PoemType[] = [
         title: "Where the Whole Is",
         date: new Date().toDateString(),
         body: "Home is where the whole is, \nwhere the soul lives. :Closest are the homeless."
-    },
-    {
-        id: 3,
-        title: "No Wings",
-        date: new Date().toDateString(),
-        body: "Was I built brittle? \nLess for sense the wounded leprosy. :I bark about brilliance like a buried dog. \nMy two callous hands choke out silver dreams, the croaking. :'I keep feeling my shoulders for no wings.'"
     },
     {
         id: 4,
@@ -46,7 +46,43 @@ const poems: PoemType[] = [
         id: 7,
         title: "Still",
         date: new Date().toDateString(),
-        body: "Ever fairly the care with which the chest heaves and dreams,\never fairly. :Ever tender the intentions rendered, how I meant to mend her. :Ever winter does the bright-eyed blindlight nuclear marry, ever winter. :Ever gossamer every dusk-spun mote of dustlight where bathing in moonshine \nsleeps the spectre of a mother. :That wordless war between us \nyet my favorite winter still. :Still as a barren nightmare in free-verse cursive.\nStill as a freshly made hospital bed burgeoned by morning.\nStill as the jay’s nest newborn flight test leapt flightless swearing never to sing.\nStill as the body de-animated. :Still so supple the fruit bearing flesh, lovely as we ever were. :Still testifying bright against the weeping blackness, \never fairly, \nstill \nalive."
+        body: "Ever fairly the care with which the chest heaves and dreams,\never fairly. :Ever tender the intentions rendered, how I meant to mend her. :Ever winter does the bright-eyed blindlight nuclear marry, ever winter. :Ever gossamer every dusk-spun mote of dustlight where bathing in moonshine \nsleeps the spectre of a mother. :That wordless war between us \nyet my favorite winter still. :Still as a barren nightmare in free-verse cursive.\nStill as a freshly made hospital bed bearing the morning.\nStill as the jay’s nest newborn flight test leapt flightless swearing never to sing.\nStill as the body de-animated. :Still so supple the fruit bearing flesh, lovely as we ever were. :Still testifying bright against the weeping blackness, \never fairly, \nstill \nalive."
+    },
+    {
+        id: 8,
+        title: "Even the Empty",
+        date: new Date().toDateString(),
+        body: "I can only spill ink over how temporary we are. \nThe empty page begs me to say something eternal. \nEven the empty burns to live forever. \nEven the empty."
+    },
+    {
+        id: 9,
+        title: "Sun Hands",
+        date: new Date().toDateString(),
+        body: "I delighted on diaphanous wings, \neyes wide fingers alight chasing \nsunbeam streams down a daydream. :Here on the earth my blood cells love."
+    },
+    {
+        id: 10,
+        title: "Birdbath",
+        date: new Date().toDateString(),
+        body: "The scar became empty \npool, beheld a January deluge and \nsettled into birdbath. :The blue jay quiets the tormentor."
+    },
+    {
+        id: 11,
+        title: "Epitaph",
+        date: new Date().toDateString(),
+        body: "She was held, :hardly."
+    },
+    {
+        id: 12,
+        title: "Human: Kind?",
+        date: new Date().toDateString(),
+        body: "Let them say that Human was a tender animal, \ndelighting hungry fingers \nin the flesh of fruits. :Let the ash left lying \nbe evidence of our lightness."
+    },
+    {
+        id: 13,
+        title: "Side Effects",
+        date: new Date().toDateString(),
+        body: "Do not take this medication if you are allergic to tangerine. \nDo not take this medication if you've never seen the sun swallowed by the Pacific. \nDo not take this medication if the sight of a gutted greyhound reminds you of God. \nDo not take this medication if you are prone to dragging your body behind you. \nDo not take this medication if you've never tasted red wine on the lips of Europe. ::Do not take this medication.\n"
     }
 ]
 

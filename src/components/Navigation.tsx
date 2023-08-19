@@ -6,12 +6,14 @@ function Navigation({ setActivePoem, currentTheme }: { setActivePoem: any, curre
 
   return (
     <nav class={currentTheme().nav}>
-      <For each={poemsData()}>
-        {(poem) =>
-          <button onClick={() => setActivePoem(poem)}>
-            {poem.title}
-          </button>}
-      </For>
+      <div class="nav-scroll-wrapper">
+        <For each={poemsData()}>
+          {(poem) =>
+            <p onClick={() => setActivePoem(poem)}>
+              {poem.title}
+            </p>}
+        </For>
+      </div>
     </nav>
   )
 }
