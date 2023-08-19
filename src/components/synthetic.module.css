@@ -1,0 +1,20 @@
+/* SYNTHETIC theme */
+* {
+}
+.colors {
+    background-color: black;
+    color: rgba(255, 255, 255, .87)
+}
+
+.content {
+    height: 100vh;
+    font-family: var(--font-mono)
+}
+
+.nav {
+    background-color: black;
+}
+.nav > button {
+
+    font-family: var(--font-mono)
+}
