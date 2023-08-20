@@ -6,7 +6,6 @@ function Content({ currentTheme, activePoem }: { currentTheme: Accessor<CSSModul
 
   return (
     <div style={`padding-top: 3rem; transition: all 1s;`} class={`${currentTheme().content}`}>
-      <hr />
       <h3 class="poem-title">{activePoem()?.title}</h3>
       <article class="poem-body">{stanzaFormat(activePoem()?.body).map(paragraph => <section>{paragraph.map(line => <p>{line}</p>)}</section>)}</article>
       <p class="signature">-NB-</p>
