@@ -8,13 +8,14 @@
      background-color: rgba(255, 255, 255, .87);
     color: black; 
     padding-bottom: 13rem;
+    min-height: 100vh;
 }
 
 .nav {
     background-color: rgba(255, 255, 255, .87);
 }
 
-.nav button {
+.nav p, .nav span {
     color: black;
     font-family: var(--font-serif);
  }

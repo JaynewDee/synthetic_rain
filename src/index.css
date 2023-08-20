@@ -81,11 +81,11 @@ nav {
 
 .nav-scroll-wrapper p {
   display: inline-block;
-   cursor: pointer;
+  cursor: pointer;
   background: none;
   border: none;
- margin: 0 2rem;
- }
+  margin: 0 2rem;
+}
 
 .poem-date {
   font-size: 1rem
@@ -109,6 +109,7 @@ nav {
   width: 80%;
   margin: 1rem auto;
   font-size: 1.2rem;
+  max-width: 600px;
 }
 
 .poem-body>section>p {

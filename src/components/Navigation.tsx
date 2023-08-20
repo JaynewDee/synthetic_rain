@@ -9,9 +9,13 @@ function Navigation({ setActivePoem, currentTheme }: { setActivePoem: any, curre
       <div class="nav-scroll-wrapper">
         <For each={poemsData()}>
           {(poem) =>
-            <p onClick={() => setActivePoem(poem)}>
-              {poem.title}
-            </p>}
+            <>
+              <p onClick={() => setActivePoem(poem)}>
+                {poem.title}
+              </p>
+              <span>&#8226</span>
+            </>
+          }
         </For>
       </div>
     </nav>
